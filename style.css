@@ -67,7 +67,7 @@ header nav {
 
 /* 导航链接 */
 header nav a {
-  color: var(--text-color-lightest);
+  color: white;
   text-decoration: none;
   margin: 0 24px;
 }
@@ -355,6 +355,7 @@ section {
 
 /* 案例图片 */
 .case-item img {
+	padding: 3px;
   height: 100%;
   object-fit: cover;
 }
